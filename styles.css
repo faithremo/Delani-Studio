@@ -14,3 +14,21 @@
 .front>a{
     padding-top: 100px;
 }
+
+.abt{
+    text-align: center;
+    min-height: 100vh;
+    padding-top: 50px;
+    background-color: white;
+
+}
+
+.service{
+    background-image: url(images/backgrounds/s_image.jpg);
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+    padding: 7rem 3rem;
+    text-shadow:.1rem .1rem .8rem black ;
+}
