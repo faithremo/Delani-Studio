@@ -1,0 +1,16 @@
+.front{
+    background-image:url(images/backgrounds/h_img.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    letter-spacing: .2rem;
+    text-shadow: .1rem .1rem .8rem black;
+    color: white;
+    padding-top: 200px;
+}
+
+.front>a{
+    padding-top: 100px;
+}
