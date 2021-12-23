@@ -13,8 +13,8 @@ function validation(){
         document.getElementById("form").reset();
     }else{
         swal({
-            title:"Thank you Contacting Us.",
-            text:"We Will Get Back to You",
+            title: frmName+" We have received your message!",
+            text:"Thank you for reaching out to us.",
             icon:"success",
             button:"OK",
         });
