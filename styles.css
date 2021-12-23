@@ -37,3 +37,14 @@
     background-color: white;
 
 }
+
+.contacts{
+    background-image: url(images/backgrounds/c_image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 6rem;
+}
+.footer{
+}
