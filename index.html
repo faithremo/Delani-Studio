@@ -40,22 +40,22 @@
                   <div class="hide1 col-md-4">
                     <img src="images/services_icons/design_icon.png">
                     <h6><b>DESIGN</b></h6>
-                    <p>Our design practicce offers a full range of services<br>including brand strategy,interaction and visual design<br>and user experience testing.</p>
-                    <p>Thoughout your project,our design create and<br>implement visual design and workflows,solicit user<br>feedback and work with you to make sure what's built<br>is what is needed.</p>
+                    <p>Our design practicce offers a full range of services including brand strategy,interaction and visual design and user experience testing.</p>
+                    <p>Thoughout your project,our design create and implement visual design and workflows,solicit user feedback and work with you to make sure what's built is what is needed.</p>
                   </div>
 
                   <div class="hide2 col-md-4">
                     <img src="images/services_icons/dev_icon.png">
                     <h6><b>DEVELOPMENT</b></h6>
-                    <p>All engineers are fluent in the latest enterprise,mobile<br>and web development technologies.</p>
-                    <p>They collaborate with your team to write,and improve<br>code on a daily basis,using proven practices such as<br>test-driven development and pair programing</p>
+                    <p>All engineers are fluent in the latest enterprise,mobile and web development technologies.</p>
+                    <p>They collaborate with your team to write,and improve code on a daily basis,using proven practices such as test-driven development and pair programing</p>
                   </div>
 
                   <div class="hide3 col-md-4">
                     <img src="images/services_icons/product_icon.png">
                     <h6><b>PRODUCT MANAGEMENT</b></h6>
-                    <p>Planning and development is interactive.Because we are<br>constantly coding and testing,the products we build are<br>always ready to go live.</p>
-                    <p>The interactive process allows for the changes as business<br>requirements evolve.</p>
+                    <p>Planning and development is interactive.Because we are constantly coding and testing,the products we build are always ready to go live.</p>
+                    <p>The interactive process allows for the changes as business requirements evolve.</p>
                   </div>
             </div>
 
@@ -80,17 +80,17 @@
 
           <div class="contacts col-12 text-center">
               <h4>CONTACT US</h4>
-              <div class="form container">
+              <div class="form container" id="form">
                   <div class="row mb-4">
                       <div class="col">
-                      <input type="text" class="form-control" placeholder="Name">
+                      <input type="text" class="form-control" id="name" placeholder="Name">
                       </div>
                       <div class="col">
-                      <input type="email" class="form-control" placeholder="Email">
+                      <input type="email" class="form-control" id="email" placeholder="Email">
                       </div>
                   </div>
-                  <textarea class="form-control mb-4" rows="4" cols="6" placeholder="Your message here..."></textarea>
-                  <button type="button" class="btn btn-success">Submit</button>
+                  <textarea class="form-control mb-4" id="message" rows="4" cols="6" placeholder="Your message here..."></textarea>
+                  <button type="button" class="btn btn-success" id="btn" onclick="validation()">Submit</button>
               </div>
 
          </div>  
@@ -115,6 +115,7 @@
 
         </div>
 
+    <script src="script.js"></script>
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
