@@ -80,7 +80,7 @@
 
           <div class="contacts col-12 text-center">
               <h4>CONTACT US</h4>
-              <div class="form container" id="form">
+              <form class="container" id="form">
                   <div class="row mb-4">
                       <div class="col">
                       <input type="text" class="form-control" id="name" placeholder="Name">
@@ -91,7 +91,7 @@
                   </div>
                   <textarea class="form-control mb-4" id="message" rows="4" cols="6" placeholder="Your message here..."></textarea>
                   <button type="button" class="btn btn-success" id="btn" onclick="validation()">Submit</button>
-              </div>
+                </form>
 
          </div>  
          
@@ -116,6 +116,10 @@
         </div>
 
     <script src="script.js"></script>
+
+    <!--sweetalert link-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
