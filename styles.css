@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .front{
     background-image:url(images/backgrounds/h_img.jpg);
     min-height: 100vh;
