@@ -44,10 +44,37 @@ html{
     padding: 30px;
 }
 
-button{
+.hide1 button{
     border: none;
     background:white;
+    padding: 8px 90px;
 }
+
+.hide1 button:hover, .hide1 button:focus{
+    outline: none;
+}
+
+.hide2 button{
+    border: none;
+    background:white;
+    padding: 8px 90px;
+}
+
+.hide2 button:hover, .hide2 button:focus{
+    outline: none;
+}
+
+.hide3 button{
+    border: none;
+    background:white;
+    padding: 8px 90px;
+}
+
+.hide3 button:hover, .hide3 button:focus{
+    outline: none;
+}
+
+
 
 
 .port{
