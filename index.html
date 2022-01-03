@@ -9,6 +9,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
   </head>
   <body>
       <div class="front">
@@ -38,24 +39,42 @@
               <h4><b>WHAT WE DO</b></h4>
               <div class="row hide">
                   <div class="hide1 col-md-4">
-                    <img src="images/services_icons/design_icon.png">
-                    <h6><b>DESIGN</b></h6>
-                    <p>Our design practicce offers a full range of services including brand strategy,interaction and visual design and user experience testing.</p>
-                    <p>Thoughout your project,our design create and implement visual design and workflows,solicit user feedback and work with you to make sure what's built is what is needed.</p>
+                    <button type="button" data-toggle="collapse" data-target="#design">
+                      <img src="images/services_icons/design_icon.png">
+                      <h6><b>DESIGN</b></h6>
+                    </button>
+
+                    <div id="design" class="collapse">
+                      <p>Our design practicce offers a full range of services including brand strategy,interaction and visual design and user experience testing.</p>
+                      <p>Thoughout your project,our design create and implement visual design and workflows,solicit user feedback and work with you to make sure what's built is what is needed.</p>
+                    </div>
+                    
                   </div>
 
                   <div class="hide2 col-md-4">
-                    <img src="images/services_icons/dev_icon.png">
-                    <h6><b>DEVELOPMENT</b></h6>
-                    <p>All engineers are fluent in the latest enterprise,mobile and web development technologies.</p>
-                    <p>They collaborate with your team to write,and improve code on a daily basis,using proven practices such as test-driven development and pair programing</p>
+                    <button type="button" data-toggle="collapse" data-target="#development">
+                      <img src="images/services_icons/dev_icon.png">
+                      <h6><b>DEVELOPMENT</b></h6>
+                    </button>
+
+                    <div id="development" class="collapse">
+                      <p>All engineers are fluent in the latest enterprise,mobile and web development technologies.</p>
+                      <p>They collaborate with your team to write,and improve code on a daily basis,using proven practices such as test-driven development and pair programing</p>
+                    </div>
+                     
                   </div>
 
                   <div class="hide3 col-md-4">
-                    <img src="images/services_icons/product_icon.png">
-                    <h6><b>PRODUCT MANAGEMENT</b></h6>
-                    <p>Planning and development is interactive.Because we are constantly coding and testing,the products we build are always ready to go live.</p>
-                    <p>The interactive process allows for the changes as business requirements evolve.</p>
+                    <button type="button" data-toggle="collapse" data-target="#product">
+                      <img src="images/services_icons/product_icon.png">
+                      <h6><b>PRODUCT MANAGEMENT</b></h6>
+                    </button>
+
+                    <div id="product" class="collapse">
+                      <p>Planning and development is interactive.Because we are constantly coding and testing,the products we build are always ready to go live.</p>
+                      <p>The interactive process allows for the changes as business requirements evolve.</p>
+                    </div>                  
+              
                   </div>
             </div>
 
